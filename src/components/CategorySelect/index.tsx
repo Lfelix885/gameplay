@@ -14,8 +14,6 @@ export function CategorySelect({categorySelected}:Props) {
         <ScrollView horizontal style={styles.container} showsHorizontalScrollIndicator={false}
          contentContainerStyle={{paddingRight:40}}>
 
-             {/* <Image source={require('./../../assets/ranked.svg')} style={{width:300,height:300}}/> */}
-
             {
                 categories.map(category =>(
                     <Category
